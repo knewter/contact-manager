@@ -1,0 +1,7 @@
+<h2>Contacts</h2>
+<ul>
+  {{#each sortedContacts as |contact|}}
+    <li>{{contact.firstName}} {{contact.lastName}}</li>
+  {{/each}}
+</ul>
+{{outlet}}
